@@ -1,0 +1,50 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+      <center>
+        <div id="title" class="col-exess-12 header_div">
+          <h2>Sound Controlled Aliens</h2>
+          <h6>Note: Play different sounds like clap, snap, bell to make the aliens dance</h6>
+          <br>
+        </div>
+
+        <div class="main_div" >
+          <br>
+          <button class="btn btn-warning" onclick="start()">Start</button>
+          <br>
+          <h3 id="result_label">I can here:</h3>
+          <h4 id="result_confidence">Accuracy:</h4>
+          <br>
+          <img src="aliens-01.png" width="300" height="300" id="ailen1">
+          <img src="aliens-02.png" width="300" height="300" id="ailen2">
+          <img src="aliens-03.png" width="300" height="300" id="ailen3">
+          <img src="aliens-04.png" width="300" height="300" id="ailen4">
+
+        </div>
+
+        <div class="copy_right_footer">Developed By: Jaedon Mendes</div>
+
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
